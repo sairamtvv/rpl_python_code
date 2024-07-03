@@ -7,6 +7,7 @@ def r2_score(y_true, y_pred):
     return corr ** 2
 
 
+
 class LinearRegression:
     def __init__(self, learning_rate=0.001, n_iters=1000):
         self.lr = learning_rate
