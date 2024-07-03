@@ -58,7 +58,7 @@ if __name__ == "__main__":
     plt.scatter(X[:,0], X[:,1], c=y, cmap=cmap, edgecolors="k", s=20)
     plt.show()
 
-    k = 3
+    k = 75
     clf = KNN(k=k)
     clf.fit(X_train, y_train)
     predictions = clf.predict(X_test)
